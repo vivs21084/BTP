@@ -1,0 +1,11 @@
+{
+    "authenticationMethod": "route",
+    "routes": [
+        {
+            "source": "^/(.*)",
+            "destination": "agrifeeds-dest",
+            "authenticationType": "xsuaa",
+            "csrfProtection": false
+        }
+    ]
+}
