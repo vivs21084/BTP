@@ -23,7 +23,7 @@ modules:
           srv-url: ${default-url}
     requires:
       - name: CustomerPortal-db
-
+x
   - name: CustomerPortal-db-deployer
     type: hdb
     path: gen/db
